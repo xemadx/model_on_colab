@@ -1,0 +1,14 @@
+# Core LLM Inference & Serving
+fastapi>=0.110.0
+uvicorn>=0.28.0
+huggingface_hub>=0.23.0
+requests>=2.31.0
+
+# CUDA 12.4 llama-cpp-python prebuilt wheel:
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+llama-cpp-python>=0.3.2
+
+# Transformers and PyTorch (for DeepSeek pipeline)
+transformers>=4.40.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0

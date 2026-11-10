@@ -1,0 +1,30 @@
+# Model weights and caches
+*.gguf
+*.bin
+*.pt
+*.safetensors
+models/
+.cache/
+
+# Databases & local state
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+/tmp/
+
+# Python virtualenvs and caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Logs and runtime artifacts
+*.log
+remote_public_url.txt
+my_qwen_url.txt
+
+# Secrets & credentials
+.env
+*.token
